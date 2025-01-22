@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Info -->
+    <title>Corey Schafer - Portfolio</title>
+    <meta name="description"
+          content="Corey Schafer - Programming educator on YouTube. Simplifying complex concepts into manageable steps to help learners digest material at their own pace.">
+    <meta name="author" content="Corey Schafer">
+
+    <!-- Open Graph Tags: The title of the page for social media sharing. It can match the title tag or be more descriptive. -->
+    <meta property="og:title" content="Corey Schafer">
+
+    <!-- Open Graph Tags: Typically set to "website" for static sites or "article" for content-heavy pages. -->
+    <meta property="og:type" content="website">
+
+    <!-- Open Graph Tags: The URL of the page, used to ensure link previews resolve to the correct page. -->
+    <meta property="og:url" content="https://coreyms.com">
+
+    <!-- Open Graph Tags: URL of an image that represents the page. Useful for link previews. -->
+    <meta property="og:image"
+          content="127.0.0.1:5500/portfolio_media/profile.jpg">
+
+    <!-- Open Graph Tags: Provides an alternative text for the image to improve accessibility. -->
+    <meta property="og:image:alt" content="Corey Schafer Profile Image">
+
+    <!-- Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Custom Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+          rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/modern_normalize.css" />
+    <link rel="stylesheet" href="css/html5bp.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Set a theme color that matches your website's primary color -->
+    <meta name="theme-color" content="#fafafa">
+
+    <!-- Favicon for all browsers -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+
+    <!-- Apple touch icon for iOS devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon.png">
+
+    <!-- Web app manifest for Progressive Web Apps -->
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Content Security Policy: Uncomment to enhance security by restricting where content can be loaded from (useful for preventing certain attacks like XSS). Update if adding external sources (e.g., Google Fonts, Bootstrap CDN, analytics, etc). -->
+    <!-- <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self' code.jquery.com; style-src 'self' fonts.googleapis.com; font-src fonts.gstatic.com; img-src 'self' images.examplecdn.com; "> -->
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <div class="header-top flex-responsive">
+
+          <img class="header-image"
+               width="256"
+               height="256"
+               src="portfolio_media/profile.jpg"
+               alt="Corey Schafer Profile Image" />
+
+          <div class="header-info">
+            <h1>Corey Schafer</h1>
+            <h2 class="header-label">Programmer</h2>
+
+            <address>
+              <ul class="inline-list flex-responsive">
+
+                <li>
+                  <a href="mailto:CoreyMSchafer@gmail.com">CoreyMSchafer@gmail.com</a>
+                </li>
+
+                <li>Charleston, WV</li>
+              </ul>
+            </address>
+
+            <ul class="inline-list flex-responsive">
+
+              <li>
+                <a href="https://coreyms.com"
+                   rel="noopener noreferrer"
+                   aria-label="Coreyms.com"
+                   class="link-with-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       role="img"
+                       width="16"
+                       height="16"
+                       fill="currentColor"
+                       class="bi bi-globe-americas"
+                       viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z" />
+                  </svg>
+
+                  Coreyms.com
+                </a>
+              </li>
+
+              <li>
+                <a href="https://youtube.com/c/coreyms"
+                   rel="noopener noreferrer"
+                   aria-label="YouTube"
+                   class="link-with-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       role="img"
+                       width="16"
+                       height="16"
+                       fill="currentColor"
+                       class="bi bi-youtube"
+                       viewBox="0 0 16 16">
+                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                  </svg>
+
+                  YouTube
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/coreymschafer"
+                   rel="noopener noreferrer"
+                   aria-label="Instagram"
+                   class="link-with-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       role="img"
+                       width="16"
+                       height="16"
+                       fill="currentColor"
+                       class="bi bi-instagram"
+                       viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                  </svg>
+
+                  Instagram
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/CoreyMSchafer"
+                   rel="noopener noreferrer"
+                   aria-label="Github"
+                   class="link-with-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                       role="img"
+                       width="16"
+                       height="16"
+                       fill="currentColor"
+                       class="bi bi-github"
+                       viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                  </svg>
+
+                  Github
+                </a>
+              </li>
+
+            </ul>
+
+            <p class="header-summary">
+              Programming educator on YouTube. Simplifying complex concepts into manageable steps to help learners digest material at their own pace.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-content">
+      <div class="container">
+        <main>
+
+          <section>
+            <h2 class="section-heading">Work Experience</h2>
+
+            <section>
+              <h3>
+
+                Software Engineer at <a href="https://lasp.colorado.edu/">LASP (Labratory for Atmospheric and Space Physics)</a>
+
+              </h3>
+
+              <p class="section-label">2015 - 2019</p>
+
+              <ul>
+                <li>Created and maintained back-end API services using Flask.</li>
+                <li>
+                  Created system administration scripts using Python to automate the processing and deployment of mission-critical data.
+                </li>
+                <li>Tasked with migrating in-house data pipelines to a cloud-based solution using AWS.</li>
+              </ul>
+
+            </section>
+
+            <section>
+              <h3>
+
+                Software Engineer at <a href="https://wvgis.wvu.edu/">WVU GIS Technical Center</a>
+
+              </h3>
+
+              <p class="section-label">2012 - 2015</p>
+
+              <ul>
+                <li>Developed and designed GIS web applications with the ArcGIS JavaScript API</li>
+                <li>Wrote and published geoprocessing services using Python and ArcPy</li>
+                <li>Created backend user authentication systems with PHP and MySQL</li>
+              </ul>
+
+            </section>
+
+            <section>
+              <h3>
+
+                Software Engineer at <a href="https://www.matricinnovates.com/">MATRIC (Mid-Atlantic Technology, Research, and Innovation Center)</a>
+
+              </h3>
+
+              <p class="section-label">2010 - 2011</p>
+
+              <ul>
+                <li>Created GIS web applications with ActionScript and the ArcGIS API for Flex.</li>
+                <li>Developed custom widgets for routing, wind data visualization, and simulations.</li>
+                <li>Wrote and maintained SQL-based queries to efficiently retrieve and analyze data from GIS REST services.</li>
+              </ul>
+
+            </section>
+
+          </section>
+
+          <section>
+            <h2 class="section-heading">Projects</h2>
+
+            <section>
+              <h3>
+
+                <a href="https://youtube.com/c/coreyms">Educational Content Creator on YouTube</a>
+
+              </h3>
+              <p>Channel focused on creating tutorials and walkthroughs for software developers, programmers, and engineers.</p>
+
+              <ul>
+                <li>Over 1 million subscribers</li>
+                <li>Over 100 million views</li>
+              </ul>
+
+              <div class="gallery main-gallery">
+
+                <figure>
+                  <img width="600"
+                       height="338"
+                       src="portfolio_media/yt1.png"
+                       alt="Main Channel">
+                  <figcaption>Main Channel</figcaption>
+                </figure>
+
+                <figure>
+                  <img width="600"
+                       height="338"
+                       src="portfolio_media/yt2.png"
+                       alt="Tutorials">
+                  <figcaption>Tutorials</figcaption>
+                </figure>
+
+                <figure>
+                  <img width="600"
+                       height="338"
+                       src="portfolio_media/yt3.png"
+                       alt="Live Streams">
+                  <figcaption>Live Streams</figcaption>
+                </figure>
+
+              </div>
+
+            </section>
+
+          </section>
+
+          <section>
+            <h2 class="section-heading">Volunteer Experience</h2>
+
+            <section>
+              <h3>
+
+                Computer Assistance at <a href="https://www.heritage-point.com/">Heritage Point Assisted Living</a>
+
+              </h3>
+
+              <p class="section-label">2012 - 2015</p>
+
+              <p>
+                Helped residents with any computer problems for two hours each week. Mainly helped with networking, typing, basic instruction, and troubleshooting.
+              </p>
+
+            </section>
+
+            <section>
+              <h3>
+
+                Student Ambassador at <a href="https://marshall.edu">Marshall University</a>
+
+              </h3>
+
+              <p class="section-label">2007 - 2008</p>
+
+              <p>Gave campus tours, organized promotional events, and ran summer orientation.</p>
+
+            </section>
+
+          </section>
+
+        </main>
+
+        <!-- Sidebar Section -->
+        <aside>
+
+          <section>
+            <h2 class="section-heading">Education</h2>
+
+            <section>
+              <h3>
+
+                <a href="https://marshall.edu">Marshall University</a>
+
+              </h3>
+              <p class="section-label">Hungington, WV, USA</p>
+
+              <h4>Degrees</h4>
+              <ul>
+                <li>Bachelor of Science in Computer Science</li>
+                <li>Minor in Mathematics</li>
+              </ul>
+
+              <h4>Honors</h4>
+              <ul>
+                <li>2010 Outstanding Student Award</li>
+                <li>2005 R.L. “Buck” Woodall Student-Athlete scholarship</li>
+                <li>Placed in a District ACM ICPC Team Programming Contest</li>
+              </ul>
+
+              <p>
+                <span class="block">GPA in Major: 3.93</span>
+                <span class="block">Cumulative GPA: 3.29</span>
+                <span class="block">Graduation Date: 2010</span>
+              </p>
+
+            </section>
+
+          </section>
+
+          <section>
+            <h2 class="section-heading">Skills</h2>
+            <ul class="unstyled-list">
+
+              <li>
+                <h3>Python, Flask, Django</h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-100"
+                       role="meter"
+                       aria-valuenow="100"
+                       aria-valuemin="0"
+                       aria-valuemax="100">
+                    <span class="skill-bar-label">Expert</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <h3>System Administration, Linux</h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-90"
+                       role="meter"
+                       aria-valuenow="90"
+                       aria-valuemin="0"
+                       aria-valuemax="100">
+                    <span class="skill-bar-label">Advanced</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <h3>JavaScript, HTML, CSS</h3>
+                <div class="skill-bar">
+                  <div class="skill-bar-fill w-75"
+                       role="meter"
+                       aria-valuenow="75"
+                       aria-valuemin="0"
+                       aria-valuemax="100">
+                    <span class="skill-bar-label">Comfortable</span>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="section-heading">Interests</h2>
+
+            <section>
+              <h3>Woodworking</h3>
+
+              <div class="gallery side-gallery">
+
+                <figure>
+                  <img width="600"
+                       height="338"
+                       src="portfolio_media/ww1.jpg"
+                       alt="Chess Board made from Walnut and Maple">
+                  <figcaption>Chess Board made from Walnut and Maple</figcaption>
+                </figure>
+
+                <figure>
+                  <img width="600"
+                       height="338"
+                       src="portfolio_media/ww2.jpg"
+                       alt="Wooden Necklace from Walnut Scrap">
+                  <figcaption>Wooden Necklace from Walnut Scrap</figcaption>
+                </figure>
+
+              </div>
+
+            </section>
+
+          </section>
+
+        </aside>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <div class="container">
+        <p>© 2025 Corey Schafer. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
